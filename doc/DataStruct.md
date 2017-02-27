@@ -34,6 +34,7 @@ key | format | description
 id | Long | 唯一标识符
 book_id | Long | 所属书本的id
 index | Integer | 课程索引
+name | String | 课程名称
 words | List&lt;Word> | 单词列表
 grammars | List&lt;Grammar> | 语法列表
 

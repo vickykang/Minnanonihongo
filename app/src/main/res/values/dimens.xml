@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_small">12dip</dimen>
+    <dimen name="margin_normal">24dip</dimen>
+    <dimen name="margin_big">36dip</dimen>
+
+    <dimen name="left_drawer_width">240dip</dimen>
+    <dimen name="left_drawer_user_height">180dp</dimen>
+
+</resources>
