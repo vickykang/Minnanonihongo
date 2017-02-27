@@ -93,4 +93,4 @@ key | format | description
 ----|--------|------------
 user_id | Long | 用户id
 belonged_id | Long | 所属id
-type | Integer | 所属类型，取值范围[0,1] (0-Word, 1-Grammar)
+type | Integer | 所属类型，取值范围[0,1]，其中0-Word，1-Grammar
