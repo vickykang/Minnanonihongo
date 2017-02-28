@@ -45,10 +45,10 @@ grammars | List&lt;Grammar> | 语法列表
 key | format | description
 ----|--------|------------
 id | Long | 唯一标识符
-lession_id | Long | 所属课程的id
+lesson_id | Long | 所属课程的id
 word | String | 单词，可包含汉字、平假名、片假名等
 hiragana | String | 平假名，为汉字注音，可为空
-tone | Integer | 声调(0,1,2...)，可为空
+tone | String | 声调(0,1,2...)，可为空
 meaning | String | 单词含义
 transformations | List&lt;Transformation> | 变形列表
 
@@ -72,7 +72,7 @@ example | String | 例句
 key | format | description
 ----|--------|------------
 id | Long | 唯一标识符
-lession_id | Long | 所属课程的id
+lesson_id | Long | 所属课程的id
 content | String | 语法内容
 examples | List<String> | 例句列表
 
